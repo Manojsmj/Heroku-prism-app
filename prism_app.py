@@ -12,8 +12,6 @@ from nltk.stem import PorterStemmer
 ps=PorterStemmer()
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-import warnings
-warnings.filterwarnings("ignore")
 stopwords = stopwords.words('english')
 
 def cleanText(text):
